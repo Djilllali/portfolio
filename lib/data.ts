@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import techsio from "@/public/1.png";
+import login from "@/public/loginn.png";
+import avr2 from "@/public/2.png";
+import turing from "@/public/turing.png";
+import tracking from "@/public/tracking.png";
 
 export const links = [
   {
@@ -35,52 +37,113 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Reactjs, Nodejs Developer",
+    location: "SARL ATLAS CBA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "In the context of this project, I was entrusted with the development of a dashboard designed for the management of an online gift card sales website. Additionally, I played a key role in the creation of a web application dedicated to parcel tracking.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full stack web developer",
+    location: "AVR technologies",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Within the Research and Development team, I took the lead in creating a sophisticated dashboard to oversee parameters, user interactions, and statistics for a mobile augmented reality application.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Full-Stack Developer",
+    location: "Devteam",
+    description:
+      "Designed and implemented a robust ERP system utilizing web-based applications. Comprising 12 distinct modules, each operating as an independent application, the system effectively addresses diverse facets of business management, showcasing my expertise in creating comprehensive solutions for streamlined and efficient operations.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "E-commerce website for selling gift cards",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "As part of this project, I developped a dashboard for managing an online gift card sales website. This comprehensive tool empowers users to effectively monitor real-time statistics, prevent fraudulent activities, manage products, stocks, and user accounts",
+    tags: [
+      "Reactjs",
+      "Next.js",
+      "Ant design",
+      "Redux",
+      "mongoDB",
+      "jest",
+      "Leafletjs",
+      "Github",
+      "Agile",
+    ],
+    imageUrl: techsio,
   },
   {
-    title: "rmtDev",
+    title: "Back-office for managing an AR application",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Within the Research and Development team, I took the lead in creating a sophisticated dashboard to oversee parameters, user interactions, and statistics for a mobile augmented reality application",
+    tags: [
+      "Reactjs",
+      "Ant design",
+      "Redux",
+      "mongoDB",
+      "jest",
+      "Github",
+      "Kanban",
+    ],
+    imageUrl: avr2,
   },
   {
-    title: "Word Analytics",
+    title: "Back-office for managing a parcel-tracking application",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Within the Research and Development team, I took the lead in creating a sophisticated dashboard to oversee parameters, user interactions, and statistics for a mobile augmented reality application",
+    tags: [
+      "Reactjs",
+      "Ant design",
+      "Redux",
+      "mongoDB",
+      "jest",
+      "Leafletjs",
+      "Github",
+    ],
+    imageUrl: tracking,
+  },
+  {
+    title: "Freelance platform",
+    description:
+      "I contributed to the development of a freelance platform that seamlessly connects freelancers with clients, fostering a collaborative ecosystem for task completion. This platform boasts user-friendly features such as project browsing, intelligent project suggestions, project reservation, and seamless client communication.",
+    tags: [
+      "React",
+      "Next.js",
+      "Nodejs",
+      "Tailwind",
+      "CI/CD",
+      "AWS (EC2,S3)",
+      "Mongodb",
+      "Gitlab",
+    ],
+    imageUrl: turing,
+  },
+  {
+    title: "ERP for company managment",
+    description:
+      "As a full-stack developer, I developped (ERP) system that seamlessly integrates 12+ applications. This robust solution streamlines HR management, payroll calculations, visualizing statistics, email handling, and real estate project management, providing a centralized platform for efficient operation.",
+    tags: [
+      "React.js",
+      "Node.js",
+      "Redux",
+      "MongoDB",
+      "Express",
+      "MateriaUI",
+      "Handelbars",
+      "React Hook Forms",
+      "Reusable components",
+      "jest/Recat testing library",
+      "Agile",
+    ],
+    imageUrl: login,
   },
 ] as const;
 
@@ -88,20 +151,35 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
   "Node.js",
   "Git",
+  "GitHub",
+  "GitLab",
   "Tailwind",
-  "Prisma",
+  "MaterialUI",
+  "AntDesign",
+  "CI/CD",
+  "AWS (EC2,S3)",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
+  "RestAPI",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Handlebars",
+  "webPack",
+  "NGINX",
+  "React Hook Forms",
+  "Jest",
+  "React testing library",
+] as const;
+
+export const methodologyData = [
+  "Agile",
+  "Scrum",
+  "Waterfall",
+  "Kanban",
+  "Trello",
+  "Jira",
 ] as const;
