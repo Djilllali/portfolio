@@ -19,23 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After earning a <span className="font-medium">Master's degree</span> in
-        Computer Science, my journey into programming began. I delved into the
-        realm of <span className="font-medium">full-stack web development</span>
-        . through immersive experiences, mastering{" "}
-        <span className="font-medium">ReactJS, NodeJS, and MongoDB,</span>
-        while also navigating CI/CD with GitLab and AWS.{" "}
-        <span className="italic">My passion lies in problem-solving</span>, the
-        thrill of unraveling complex challenges fuels my dedication to continual
-        learning. In addition to my technical prowess,{" "}
-        <span className="italic">I find joy in the serenity of nature,</span>{" "}
-        exploring landscapes from mountains to deserts and embracing outdoor
-        activities like <span className="italic">hiking and trekking </span>.
-        Beyond coding, I unwind by playing table tennis, absorbing knowledge
-        about evolutionary biology, and delving into{" "}
-        <span className="font-medium">philosophical explorations</span>. I am
-        eager to contribute my skills and enthusiasm to a dynamic software
-        development role.
+        Armed with a <span className="font-medium">Master's</span> in Computer
+        Science, I've dived into{" "}
+        <span className="font-medium">full-stack web development</span>,
+        mastering <span className="font-medium">ReactJS, NodeJS, MongoDB,</span>{" "}
+        and navigating GitLab and AWS for CI/CD. My thrill for problem-solving
+        fuels ongoing learning. Beyond coding, I explore{" "}
+        <span className="italic">
+          nature, hike, and indulge in table tennis, evolutionary biology, and
+          philosophy
+        </span>
+        . Eager to bring my skills and enthusiasm to a vibrant software
+        development role. After earning a{" "}
       </p>
     </motion.section>
   );
