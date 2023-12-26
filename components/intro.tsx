@@ -62,7 +62,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-
+        <span className="font-bold">Hello, I'm Djillali.</span> I'm a{" "}
+        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">4 years</span> of experience. I enjoy
+        building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="underline">React.js && Node.js </span>.
       </motion.h1>
 
       <motion.div
@@ -87,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/cv.pdf"
+          href="/CV.pdf"
           download
         >
           Download CV{" "}
