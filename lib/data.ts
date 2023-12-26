@@ -113,7 +113,7 @@ export const projectsData = [
   {
     title: "Freelance platform",
     description:
-      "I contributed to the development of a freelance platform that seamlessly connects freelancers with clients, fostering a collaborative ecosystem for task completion. This platform boasts user-friendly features such as project browsing, intelligent project suggestions, project reservation, and seamless client communication.",
+      "I contributed to the development of a freelance platform that seamlessly connects freelancers with clients, fostering a collaborative ecosystem for task completion. This platform boasts user-friendly features such as project browsing, intelligent project suggestions, and seamless client communication.",
     tags: [
       "React",
       "Next.js",
