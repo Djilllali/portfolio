@@ -65,8 +65,8 @@ export default function Intro() {
         <span className="font-bold">Greetings, I'm Djillali,</span> a seasoned
         full-stack developer boasting <span className="font-bold">4 years</span>{" "}
         of hands-on experience. My passion lies in crafting{" "}
-        <span className="italic">websites and applications</span>, with a
-        particular focus on leveraging the capabilities of
+        <span className="italic">websites and applications</span>, with much
+        appreciation for
         <span className="underline"> React.js and Node.js.</span>
       </motion.h1>
 
